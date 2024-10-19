@@ -14,7 +14,7 @@ for i = 1, 10 do
 end
 local args = {
     [1] = "money",
-    [2] = 3.1e+16
+    [2] = 5e+17
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Functions"):WaitForChild("UpdateStat"):InvokeServer(unpack(args))
